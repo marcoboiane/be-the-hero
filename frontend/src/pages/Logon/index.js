@@ -26,7 +26,7 @@ export default function Logon() {
 
         } catch (err) {
             alert('Falha no login, tente novamente.');
-        }
+        }   
     }
 
     return (
@@ -50,7 +50,6 @@ export default function Logon() {
                     </Link>
                 </form>
             </section>
-
             <img src={heroesImage} alt="Heroes"/>
         </div> 
     );
